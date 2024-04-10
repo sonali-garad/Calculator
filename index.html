@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="display">
+            <input type="text" id="display-1" readonly>
+        </div>
+        <div class="button-container">
+            
+<!--------------BUTTON C----------------------------------->
+ <div class="button"
+ onclick="currentDisplay=' ';
+ document.querySelector('#display-1').value=currentDisplay">
+    <button>c</button> 
+</div>
+<!---------------------------------------------------------->
+
+<!------------------------BUTTON 1-------------------------------->
+            <div class="button"
+            onclick="
+            currentDisplay=currentDisplay+'1';
+            document.querySelector('#display-1').value=currentDisplay;
+            ">
+            <button>1</button> 
+        </div>
+<!---------------------------BUTTON 2 --------------------------------------->
+            <div class="button"
+            onclick="
+                     currentDisplay=currentDisplay+'2';
+                     document.querySelector('#display-1').value=currentDisplay;
+            ">
+                <button>2</button> 
+            </div>
+<!---------------------------------------------------------------------->
+
+<!--------------------------------BUTTON +----------------------------------->
+            <div class="button"
+            onclick="
+                     currentDisplay= currentDisplay+'+';
+                     document.querySelector('#display-1').value=currentDisplay;
+            ">
+                <button>+</button> 
+            </div>
+<!------------------------------------------------------------------------------>
+
+<!---------------------------------BUTTON 3------------------------------>
+            <div class="button"
+            onclick="
+            currentDisplay=currentDisplay+'3';
+            document.querySelector('#display-1').value=currentDisplay;
+            ">
+                <button>3</button> 
+            </div>
+<!----------------------------------------------------------------------------->
+
+<!---------------------------------BUTTON 4 ----------------------------------->
+            <div class="button"
+            onclick="
+            currentDisplay=currentDisplay+'4';
+            document.querySelector('#display-1').value=currentDisplay;
+            ">
+                <button>4</button> 
+            </div>
+<!---------------------------------------------------------------------------------->
+
+<!-------------------------------------BUTTON - ----------------------------->
+            <div class="button"
+            onclick="
+            currentDisplay=currentDisplay+'-';
+            document.querySelector('#display-1').value=currentDisplay;
+            ">
+                <button>-</button> 
+            </div>
+<!-------------------------------------------------------------------------------->
+
+<!----------------------------------BUTTON 5 ---------------------------------->
+            <div class="button"
+            onclick="
+            currentDisplay=currentDisplay+'5';
+            document.querySelector('#display-1').value=currentDisplay;
+            ">
+                <button>5</button> 
+            </div>
+<!---------------------------------------------------------------------------->
+
+<!----------------------------------BUTOTN 6 --------------------------------------->
+            <div class="button"
+            onclick="
+            currentDisplay=currentDisplay+'6';
+            document.querySelector('#display-1').value=currentDisplay;
+            ">
+                <button>6</button>
+             </div>
+<!----------------------------------------------------------------------------------->
+
+<!-----------------------------BUTTON * -------------------------------------------->
+            <div class="button"
+            onclick="
+            currentDisplay=currentDisplay+'*';
+            document.querySelector('#display-1').value=currentDisplay;
+            ">
+                <button>*</button>
+             </div>
+<!------------------------------------------------------------------------------------>
+
+<!----------------------------------BUTTON 7 ------------------------------------------>
+            <div class="button"
+            onclick="
+            currentDisplay=currentDisplay+'7';
+            document.querySelector('#display-1').value=currentDisplay;
+            ">
+                <button>7</button> 
+            </div>
+<!---------------------------------------------------------------------------------------->
+
+<!---------------------------------------BUTTON 8 ----------------------------------->
+            <div class="button"
+            onclick="
+            currentDisplay=currentDisplay+'8';
+            document.querySelector('#display-1').value=currentDisplay;
+            ">
+                <button>8</button> 
+            </div>
+<!------------------------------------------------------------------------------------->
+
+<!-----------------------------------BUTTON / ------------------------------------------->
+            <div class="button"
+            onclick="
+            currentDisplay=currentDisplay+'/';
+            document.querySelector('#display-1').value=currentDisplay;
+            ">
+             <button>/</button> 
+            </div>
+<!---------------------------------------------------------------------------------------->
+
+<!-----------------------------------BUTTON = ------------------------------------------->
+            <div class="button"
+            onclick="
+            let result=eval(currentDisplay);
+            currentDisplay=result;
+            document.querySelector('#display-1').value=currentDisplay;
+            ">
+            <button>=</button>
+             </div>
+ <!------------------------------------------------------------------------------>
+
+ <!----------------------------------BUTTON 9 ------------------------------------->
+            <div class="button"
+            onclick="
+            currentDisplay=currentDisplay+'9';
+            document.querySelector('#display-1').value=currentDisplay;
+            ">
+                <button>9</button>
+             </div>
+<!------------------------------------------------------------------------------->
+
+<!-----------------------------------BUTTON 0 ------------------------------------------------->
+            <div class="button"
+            onclick="
+            currentDisplay=currentDisplay+'0';
+            document.querySelector('#display-1').value=currentDisplay;
+            ">
+                <button>0</button> 
+            </div>
+ <!------------------------------------------------------------------------------->
+         
+<!-------------------------------button . ------------------------------------> 
+ <div class="button"
+ onclick="
+ currentDisplay=currentDisplay+'.';
+ document.querySelector('#display-1').value=currentDisplay;
+ ">
+    <button>.</button>
+ </div>
+
+ <!------------------------------------------------------------------------------------->
+
+
+        </div>
+    </div>
+
+
+    <Script src="index.js">
+
+
+    </Script>
+</body>
+
+</html>
