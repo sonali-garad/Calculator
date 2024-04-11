@@ -70,12 +70,16 @@ body,html
 
     {
 
-    body
+    body,html
     {
        height: 100vh;
         overflow-y:hidden;
         justify-content: center;
         align-items: center;
+}
+.main-container
+{
+    margin:0% 6%;
 }
 
 }
